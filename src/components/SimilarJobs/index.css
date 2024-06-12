@@ -1,0 +1,19 @@
+.similar-jobs-list-item {
+  padding-left: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.similar-job-item {
+  list-style-type: none;
+  width: 35%;
+  background-color: #202020;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-job-item {
+    width: 100%;
+  }
+}
